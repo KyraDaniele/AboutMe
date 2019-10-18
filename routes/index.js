@@ -3,7 +3,7 @@ const express = require('express'),
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('template', {
+    res.render('partial-index', {
         locals: {
             title: 'Welcome!'
         },
